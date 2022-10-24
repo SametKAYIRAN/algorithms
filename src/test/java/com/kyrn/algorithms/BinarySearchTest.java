@@ -9,7 +9,7 @@ public class BinarySearchTest {
     private final BinarySearch binarySearch = new BinarySearch();
 
     @Test
-    public void givenSortedArray_whenSearchedItemExist_thenReturnSearchedItem() {
+    public void givenSortedArray_whenGivenItemExist_thenReturnGivenItem() {
         //given - precondition or setup
         int[] givenArr = {1, 5, 8, 12, 25, 36, 37, 58, 59, 63, 77, 85, 99};
         int givenElement = 37;
