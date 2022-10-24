@@ -2,6 +2,10 @@ package com.kyrn.algorithms;
 
 public class BinarySearch {
 
+    private BinarySearch() {
+
+    }
+
     public static Integer search(int[] givenArr, int givenElement) {
         int lowestIndex = 0;
         int highestIndex = givenArr.length - 1;

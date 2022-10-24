@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class BinarySearchTest {
+class BinarySearchTest {
 
     private final int[] givenArr = {1, 5, 8, 12, 25, 36, 37, 58, 59, 63, 77, 85, 99};
 
     @Test
-    public void givenSortedArray_whenGivenItemExist_thenReturnGivenItem() {
+    void givenSortedArray_whenGivenItemExist_thenReturnGivenItem() {
         //given - precondition or setup
         int givenElement = 37;
 
@@ -21,7 +21,7 @@ public class BinarySearchTest {
     }
 
     @Test
-    public void givenSortedArray_whenGivenItemNotExist_thenReturnNull() {
+    void givenSortedArray_whenGivenItemNotExist_thenReturnNull() {
         //given - precondition or setup
         int givenElement = 100;
 
